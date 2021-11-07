@@ -1,0 +1,21 @@
+.c-percents-box{
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 70vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.formula-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formula-box .bp3-heading{
+    color: #1a69d5;
+}
+
+.inputs-box{
+    display: flex;
+    justify-content: space-between;
+}
