@@ -524,7 +524,7 @@ const SimplePercentsComponent = () => {
         return(
             <div>
                 <div className='formula-box'>
-                    <img src={img131}/>
+                    <img src={img132}/>
                     <H4>(8)</H4>
                 </div>
                 <div className='inputs-box'>
