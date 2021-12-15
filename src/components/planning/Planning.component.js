@@ -51,9 +51,7 @@ const PlanningComponent = () => {
     const handleA72Change = (val) => {
         setA72(val)
     }
-    const handleI72Change = (val) => {
-        setI72(val)
-    }
+
     const handleN72Change = (val) => {
         setN72(val)
     }
@@ -277,9 +275,9 @@ const PlanningComponent = () => {
                             labelFor="i72"
                             labelInfo='(відсоткова ставка)'
                         >
-                            <NumericInput id='i72' min={0}
+                            <NumericInput id='i72' min={0} max={1}
                                           stepSize={0.1}
-                                          value={i71} onValueChange={handleI72Change}/>
+                                          value={i72} onValueChange={setI72}/>
                         </FormGroup>
                         <FormGroup
                             label="N"
